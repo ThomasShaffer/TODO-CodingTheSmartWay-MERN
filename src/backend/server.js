@@ -69,7 +69,7 @@ todoRoutes.route("/update/:id").post(function(req, res) {
     });
 });
 
-//This route is currently under construction, trying to implement the delete
+
 todoRoutes.route('/delete/:id').delete(function(req, res) {
     Todo.findByIdAndRemove(req.params.id, function(err, todo){
         if (err) {
