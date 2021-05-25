@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 
-"""User-Interface for the Todo List Tracker"""
+
 
 const Todo = props => {
     function deleteTodo() {

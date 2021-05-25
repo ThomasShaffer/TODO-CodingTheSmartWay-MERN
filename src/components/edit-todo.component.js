@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-"""User Interface for editing already existing Todo objects"""
+
 
 export default class EditTodo extends Component {
 

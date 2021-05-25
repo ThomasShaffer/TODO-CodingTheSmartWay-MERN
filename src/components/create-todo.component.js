@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-"""User Interface for creating a brand new Todo Object"""
+
 
 export default class CreateTodo extends Component {
     
